@@ -17,4 +17,4 @@ Interactive maps, like those made with Folium, can help you analyze personal dat
 4. **Data Communication and Presentation**: Interactive maps can be easier to understand than numbers or raw data tables.
 
 ### The Map
-If you want to access the map in html, you can access [here](https://amrinarosyd.github.io/Transjakarta_BW2_Folium/TJ_BW2.html) as follows.
+If you want to access the map in html, you can access it [here](https://amrinarosyd.github.io/Transjakarta_BW2_Folium/TJ_BW2.html) as follows.
