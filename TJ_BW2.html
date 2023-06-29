@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_49e27e136e503a46adc7c98a033e890a {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_49e27e136e503a46adc7c98a033e890a" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_49e27e136e503a46adc7c98a033e890a = L.map(
+                "map_49e27e136e503a46adc7c98a033e890a",
+                {
+                    center: [-6.168147, 106.83112],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 15,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_d338b3cc5729f37831d0aa7580d30722 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca target=\"_blank\" href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca target=\"_blank\" href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_49e27e136e503a46adc7c98a033e890a);
+        
+    
+            var marker_02da0e0bbf40226f06ca6264b4193399 = L.marker(
+                [-6.168147, 106.83112],
+                {}
+            ).addTo(map_49e27e136e503a46adc7c98a033e890a);
+        
+    
+            var icon_9b34860174e329d0b0d1c1e209814469 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "bus", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_02da0e0bbf40226f06ca6264b4193399.setIcon(icon_9b34860174e329d0b0d1c1e209814469);
+        
+    
+        var popup_ad4b32ceac0d61d6fec15c381546768e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e4ae3e39f225118056c18630331a977a = $(`<div id="html_e4ae3e39f225118056c18630331a977a" style="width: 100.0%; height: 100.0%;">Bus Station: Juanda Istiqlal<br>Latitude: -6.168147<br>Longitude: 106.83112</div>`)[0];
+                popup_ad4b32ceac0d61d6fec15c381546768e.setContent(html_e4ae3e39f225118056c18630331a977a);
+            
+        
+
+        marker_02da0e0bbf40226f06ca6264b4193399.bindPopup(popup_ad4b32ceac0d61d6fec15c381546768e)
+        ;
+
+        
+    
+    
+            marker_02da0e0bbf40226f06ca6264b4193399.bindTooltip(
+                `<div>
+                     Juanda Istiqlal
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_8183e9ed4c818133668f48fdc9ed7015 = L.marker(
+                [-6.172531, 106.82315],
+                {}
+            ).addTo(map_49e27e136e503a46adc7c98a033e890a);
+        
+    
+            var icon_51f74ffcea9baf1b6bfeca5ce66e0573 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "bus", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_8183e9ed4c818133668f48fdc9ed7015.setIcon(icon_51f74ffcea9baf1b6bfeca5ce66e0573);
+        
+    
+        var popup_68e44bc833c7888b495db6a774259183 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b1ddfc0d272d79defe6e268238eb8f53 = $(`<div id="html_b1ddfc0d272d79defe6e268238eb8f53" style="width: 100.0%; height: 100.0%;">Bus Station: Monas 1<br>Latitude: -6.172531<br>Longitude: 106.82315</div>`)[0];
+                popup_68e44bc833c7888b495db6a774259183.setContent(html_b1ddfc0d272d79defe6e268238eb8f53);
+            
+        
+
+        marker_8183e9ed4c818133668f48fdc9ed7015.bindPopup(popup_68e44bc833c7888b495db6a774259183)
+        ;
+
+        
+    
+    
+            marker_8183e9ed4c818133668f48fdc9ed7015.bindTooltip(
+                `<div>
+                     Monas 1
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_fbbe76b2bb9763fa8b2a1ca2546f4532 = L.marker(
+                [-6.178787, 106.82304],
+                {}
+            ).addTo(map_49e27e136e503a46adc7c98a033e890a);
+        
+    
+            var icon_70461635c544bc4168f75c6982026aec = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "bus", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_fbbe76b2bb9763fa8b2a1ca2546f4532.setIcon(icon_70461635c544bc4168f75c6982026aec);
+        
+    
+        var popup_fb832d97cfc1bc3a38095c5975d8c6a6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_72cb171bb295c0e209c63c461141061b = $(`<div id="html_72cb171bb295c0e209c63c461141061b" style="width: 100.0%; height: 100.0%;">Bus Station: Monas 3<br>Latitude: -6.178787<br>Longitude: 106.82304</div>`)[0];
+                popup_fb832d97cfc1bc3a38095c5975d8c6a6.setContent(html_72cb171bb295c0e209c63c461141061b);
+            
+        
+
+        marker_fbbe76b2bb9763fa8b2a1ca2546f4532.bindPopup(popup_fb832d97cfc1bc3a38095c5975d8c6a6)
+        ;
+
+        
+    
+    
+            marker_fbbe76b2bb9763fa8b2a1ca2546f4532.bindTooltip(
+                `<div>
+                     Monas 3
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ae2e125cb090ab0b8a1e92471f3a76cf = L.marker(
+                [-6.1803, 106.82618],
+                {}
+            ).addTo(map_49e27e136e503a46adc7c98a033e890a);
+        
+    
+            var icon_f9ba3215a3fd8bc5c04ffb517301d696 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "bus", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_ae2e125cb090ab0b8a1e92471f3a76cf.setIcon(icon_f9ba3215a3fd8bc5c04ffb517301d696);
+        
+    
+        var popup_6c9a5cfa5ba34dd1d4cde13ae2b4f2b9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_93d8f160b0bde245ed6d15ba6a4c719b = $(`<div id="html_93d8f160b0bde245ed6d15ba6a4c719b" style="width: 100.0%; height: 100.0%;">Bus Station: IRTI<br>Latitude: -6.1803<br>Longitude: 106.82618</div>`)[0];
+                popup_6c9a5cfa5ba34dd1d4cde13ae2b4f2b9.setContent(html_93d8f160b0bde245ed6d15ba6a4c719b);
+            
+        
+
+        marker_ae2e125cb090ab0b8a1e92471f3a76cf.bindPopup(popup_6c9a5cfa5ba34dd1d4cde13ae2b4f2b9)
+        ;
+
+        
+    
+    
+            marker_ae2e125cb090ab0b8a1e92471f3a76cf.bindTooltip(
+                `<div>
+                     IRTI
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ec4e48035c57d00fbd17ecd2ebbc43a7 = L.marker(
+                [-6.193733, 106.8228],
+                {}
+            ).addTo(map_49e27e136e503a46adc7c98a033e890a);
+        
+    
+            var icon_0baeda6d4aaa988d87a32705bf78707e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "bus", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_ec4e48035c57d00fbd17ecd2ebbc43a7.setIcon(icon_0baeda6d4aaa988d87a32705bf78707e);
+        
+    
+        var popup_302dd35d7b24be8a7965e610a5ca55c1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b28f0f8c0d725e6eb70eadc439afaa59 = $(`<div id="html_b28f0f8c0d725e6eb70eadc439afaa59" style="width: 100.0%; height: 100.0%;">Bus Station: Plaza Indonesia<br>Latitude: -6.193733<br>Longitude: 106.8228</div>`)[0];
+                popup_302dd35d7b24be8a7965e610a5ca55c1.setContent(html_b28f0f8c0d725e6eb70eadc439afaa59);
+            
+        
+
+        marker_ec4e48035c57d00fbd17ecd2ebbc43a7.bindPopup(popup_302dd35d7b24be8a7965e610a5ca55c1)
+        ;
+
+        
+    
+    
+            marker_ec4e48035c57d00fbd17ecd2ebbc43a7.bindTooltip(
+                `<div>
+                     Plaza Indonesia
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_28fb27f2d30e4f78d62a22d24b2fe03b = L.marker(
+                [-6.176403, 106.82263],
+                {}
+            ).addTo(map_49e27e136e503a46adc7c98a033e890a);
+        
+    
+            var icon_1da2305ec25b1ecb3ac7ed1b4042c4df = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "bus", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_28fb27f2d30e4f78d62a22d24b2fe03b.setIcon(icon_1da2305ec25b1ecb3ac7ed1b4042c4df);
+        
+    
+        var popup_fd2e708c0eb0a911dd8dd5b0beedf606 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0b48ae24e3de3c381acca53aa81c4f58 = $(`<div id="html_0b48ae24e3de3c381acca53aa81c4f58" style="width: 100.0%; height: 100.0%;">Bus Station: Museum Nasional<br>Latitude: -6.176403<br>Longitude: 106.82263</div>`)[0];
+                popup_fd2e708c0eb0a911dd8dd5b0beedf606.setContent(html_0b48ae24e3de3c381acca53aa81c4f58);
+            
+        
+
+        marker_28fb27f2d30e4f78d62a22d24b2fe03b.bindPopup(popup_fd2e708c0eb0a911dd8dd5b0beedf606)
+        ;
+
+        
+    
+    
+            marker_28fb27f2d30e4f78d62a22d24b2fe03b.bindTooltip(
+                `<div>
+                     Museum Nasional
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e936b43c4b4807fd5bd31e835a7b786b = L.marker(
+                [-6.16695, 106.82572],
+                {}
+            ).addTo(map_49e27e136e503a46adc7c98a033e890a);
+        
+    
+            var icon_838481b9fb34e9156298f439c897529b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "bus", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_e936b43c4b4807fd5bd31e835a7b786b.setIcon(icon_838481b9fb34e9156298f439c897529b);
+        
+    
+        var popup_f77cfa7b8ae47874d868670d239112ed = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6a4b660c799e43f69513cb481c8e7d1f = $(`<div id="html_6a4b660c799e43f69513cb481c8e7d1f" style="width: 100.0%; height: 100.0%;">Bus Station: Pecenongan 1<br>Latitude: -6.16695<br>Longitude: 106.82572</div>`)[0];
+                popup_f77cfa7b8ae47874d868670d239112ed.setContent(html_6a4b660c799e43f69513cb481c8e7d1f);
+            
+        
+
+        marker_e936b43c4b4807fd5bd31e835a7b786b.bindPopup(popup_f77cfa7b8ae47874d868670d239112ed)
+        ;
+
+        
+    
+    
+            marker_e936b43c4b4807fd5bd31e835a7b786b.bindTooltip(
+                `<div>
+                     Pecenongan 1
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_9421ec731211de3d465bd5471735303a = L.polyline(
+                [[-6.168147, 106.83112], [-6.172531, 106.82315], [-6.178787, 106.82304], [-6.1803, 106.82618], [-6.193733, 106.8228], [-6.176403, 106.82263], [-6.16695, 106.82572]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_49e27e136e503a46adc7c98a033e890a);
+        
+</script>
+</html>
