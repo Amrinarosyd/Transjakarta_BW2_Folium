@@ -15,3 +15,6 @@ Interactive maps, like those made with Folium, can help you analyze personal dat
 2. **Route Planning and Optimization**: If you have traffic or passenger density data, you can use it to plan or optimize busway routes. For example, you might find that some routes are busy while others are underutilized, and you can adjust routes or bus schedules to achieve a better balance.
 3. **Identification of Underserved Areas**: By comparing busway routes with population maps or other data, city planners or bus operators can identify areas that aren't well-served.
 4. **Data Communication and Presentation**: Interactive maps can be easier to understand than numbers or raw data tables.
+
+### The Map
+If you want to access the map in html, you can access [here](https://amrinarosyd.github.io/Transjakarta_BW2_Folium/TJ_BW2.html) as follows.
